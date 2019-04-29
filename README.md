@@ -1,2 +1,1 @@
-# responsive-page
-resp page
+https://freem4nn.github.io/responsivepage/
