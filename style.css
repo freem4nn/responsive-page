@@ -1,0 +1,56 @@
+body
+{
+    display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+    body {background-color: blue;
+        font-size: 11px;}
+    #large
+    {
+        visibility: visible;
+        
+    }
+    div
+    {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {background-color: green;
+        font-size: 15px;
+    }
+    #small
+    {
+        width: (100%/3)*2;
+    }
+    #medium
+    {
+        width: (100%/3);
+        visibility: visible 
+    }
+    #large
+    {
+        width: 100%;
+    }
+
+}  
+@media only screen and (max-width: 300px) {
+    body {background-color: red;
+        font-size: 20px;
+    }
+    #small
+    {
+        position: absolute;
+
+        visibility: visible 
+    }
+    #medium
+    {
+        visibility: hidden;
+    }
+}  
+div{
+    visibility: hidden;
+}
